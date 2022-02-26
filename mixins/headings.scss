@@ -1,0 +1,23 @@
+@mixin heading-base {
+  font-weight: 700;
+}
+
+@mixin heading-xxl {
+  @include heading-base;
+  @include text-9xl;
+}
+
+@mixin heading-xl {
+  @include heading-base;
+  @include text-5xl;
+}
+
+@mixin heading-lg {
+  @include heading-base;
+  @include text-4xl;
+}
+
+@mixin heading {
+  @include heading-base;
+  @include text-3xl;
+}

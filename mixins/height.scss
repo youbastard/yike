@@ -1,0 +1,11 @@
+/**
+ * height mixin
+ *
+ * @example
+ *  @include height(2); => margin: .5rem;
+ */
+@mixin h($size) { height: calc-size($size); }
+
+@mixin h-full { height: 100%; }
+
+@mixin h-screen { height: 100vh; }

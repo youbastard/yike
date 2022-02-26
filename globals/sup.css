@@ -1,0 +1,10 @@
+/**
+ * Prevent 'sup' elements from affecting the line height in all browsers.
+ */
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}

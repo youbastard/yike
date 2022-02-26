@@ -1,0 +1,11 @@
+/**
+ * 1. Inherit font-family and line-height from `html` so
+ * users can set them as a class directly on the `html` element.
+ */
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+}

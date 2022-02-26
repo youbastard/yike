@@ -1,0 +1,41 @@
+/* css vars for theming */
+@import "./vars/colors.css";
+
+/* global style resets */
+@import "./globals/root.css";
+@import "./globals/a.css";
+@import "./globals/abbr.css";
+@import "./globals/blockquote.css";
+@import "./globals/body.css";
+@import "./globals/button.css";
+@import "./globals/code.css";
+@import "./globals/dd.css";
+@import "./globals/dl.css";
+@import "./globals/fieldset.css";
+@import "./globals/figure.css";
+@import "./globals/h.css";
+@import "./globals/hidden.css";
+@import "./globals/hr.css";
+@import "./globals/html.css";
+@import "./globals/iframe.css";
+@import "./globals/img.css";
+@import "./globals/input.css";
+@import "./globals/legend.css";
+@import "./globals/moz.css";
+@import "./globals/ol.css";
+@import "./globals/optgroup.css";
+@import "./globals/p.css";
+@import "./globals/pre.css";
+@import "./globals/progress.css";
+@import "./globals/select.css";
+@import "./globals/small.css";
+@import "./globals/strong.css";
+@import "./globals/sub.css";
+@import "./globals/summary.css";
+@import "./globals/sup.css";
+@import "./globals/svg.css";
+@import "./globals/table.css";
+@import "./globals/textarea.css";
+@import "./globals/ul.css";
+@import "./globals/video.css";
+@import "./globals/webkit.css";

@@ -1,0 +1,24 @@
+/* this is just a function */
+@import "./mixins/calc-size";
+
+/* actual mixins */
+@import "./mixins/animate";
+@import "./mixins/border";
+@import "./mixins/box-shadow";
+@import "./mixins/corner-radius";
+@import "./mixins/font-weight";
+@import "./mixins/grid-cols";
+@import "./mixins/grid-gap";
+@import "./mixins/headings";
+@import "./mixins/height";
+@import "./mixins/leading";
+@import "./mixins/margin";
+@import "./mixins/outline";
+@import "./mixins/padding";
+@import "./mixins/ring";
+@import "./mixins/screen-reader";
+@import "./mixins/screen";
+@import "./mixins/text-size";
+@import "./mixins/tracking";
+@import "./mixins/truncate";
+@import "./mixins/width";

@@ -1,0 +1,32 @@
+/**
+ * Correct the cursor style of increment and decrement buttons in Safari.
+ */
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+::-webkit-search-decoration {
+  appearance: none;
+}
+
+/**
+ * remove excess padding from calender icon
+ */
+::-webkit-calendar-picker-indicator {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to 'inherit' in Safari.
+ */
+::-webkit-file-upload-button {
+  appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}

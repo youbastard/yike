@@ -1,0 +1,19 @@
+/**
+ * Padding mixin
+ *
+ * @example
+ *  @include p(2); => padding: .5rem;
+ */
+@mixin p($size) { padding: calc-size($size); }
+
+@mixin p-x($size) { $val: calc-size($size); padding-right: $val; padding-left: $val; }
+
+@mixin p-y($size) { $val: calc-size($size); padding-top: $val; padding-bottom: $val; }
+
+@mixin p-t($size) { padding-top: calc-size($size); }
+
+@mixin p-b($size) { padding-bottom: calc-size($size); }
+
+@mixin p-l($size) { padding-left: calc-size($size); }
+
+@mixin p-r($size) { padding-right: calc-size($size); }

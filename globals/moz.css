@@ -1,0 +1,18 @@
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/**
+ * Remove the additional ':invalid' styles in Firefox.
+ */
+:-moz-ui-invalid {
+  box-shadow: none;
+}

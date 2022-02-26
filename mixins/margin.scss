@@ -1,0 +1,29 @@
+/**
+ * margin mixin
+ *
+ * @example
+ *  @include m(2); => margin: .5rem;
+ */
+@mixin m($size) { margin: calc-size($size); }
+
+@mixin m-x($size) { $val: calc-size($size); margin-right: $val; margin-left: $val; }
+
+@mixin m-y($size) { $val: calc-size($size); margin-top: $val; margin-bottom: $val; }
+
+@mixin m-t($size) { margin-top: calc-size($size); }
+
+@mixin m-b($size) { margin-bottom: calc-size($size); }
+
+@mixin m-l($size) { margin-left: calc-size($size); }
+
+@mixin m-r($size) { margin-right: calc-size($size); }
+
+@mixin m-auto {
+  @include m-x-auto;
+  @include m-y-auto;
+}
+
+@mixin m-x-auto { margin-right: auto; margin-left: auto; }
+
+@mixin m-y-auto { margin-top: auto; margin-bottom: auto; }
+

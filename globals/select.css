@@ -1,0 +1,15 @@
+/**
+ * 1. Remove the inheritance of text transform in Edge and Firefox.
+ * 2. Remove the margin in Firefox and Safari
+ * 3. Change the font styles in all browsers.
+ */
+select {
+  padding: 0;
+  margin: 0; /* 2 */
+  color: inherit;
+  font-family: inherit; /* 3 */
+  font-size: 100%; /* 3 */
+  line-height: inherit;
+  text-transform: none;  /* 1 */
+}
+

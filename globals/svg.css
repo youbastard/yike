@@ -1,0 +1,5 @@
+/* stylelint-disable plugin/declaration-block-no-ignored-properties */
+svg {
+  display: block;
+  vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+/* stylelint-disable plugin/declaration-block-no-ignored-properties */
+
+/**
+ * Constrain images and videos to the parent width and preserve
+ * their intrinsic aspect ratio.
+ *
+ * https://github.com/mozdevs/cssremedy/issues/14
+ */
+video {
+  display: block; /* 1 */
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; /* 2 */
+}
+

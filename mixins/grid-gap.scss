@@ -1,0 +1,5 @@
+@mixin grid-gap($size) { gap: calc-size($size); }
+
+@mixin grid-gap-x($size) { column-gap: calc-size($size); }
+
+@mixin grid-gap-y($size) { row-gap: calc-size($size); }

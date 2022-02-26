@@ -1,0 +1,5 @@
+/* stylelint-disable plugin/declaration-block-no-ignored-properties */
+iframe {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}

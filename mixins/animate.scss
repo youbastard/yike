@@ -1,0 +1,9 @@
+@mixin animate-blink { animation: 0.6s linear infinite blink; }
+
+@mixin animate-bounce { animation: 3s linear infinite bounce; }
+
+@mixin animate-jello { animation: 0.8s linear infinite jello; }
+
+@mixin animate-swing-in { animation: 0.35s ease-out both swing-in; }
+
+@mixin animate-vibrate { animation: 0.3s linear infinite vibrate; }

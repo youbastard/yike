@@ -1,0 +1,8 @@
+$unit: rem;
+$factor: 0.25;
+
+@function calc-size($size) {
+  $val: $size * $factor;
+
+  @return #{$val}#{$unit};
+}

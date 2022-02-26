@@ -1,0 +1,32 @@
+{
+  "name": "yike",
+  "version": "0.0.1",
+  "description": "A SCSS library based off of Tailwind",
+  "main": "index.css",
+  "files": [
+    "index.css",
+    "mixins.scss"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youbastard/yike.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "tailwind",
+    "framwork",
+    "frontend",
+    "yike"
+  ],
+  "author": "Nicholas Ortenzio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youbastard/yike/issues"
+  },
+  "homepage": "https://github.com/youbastard/yike#readme"
+}

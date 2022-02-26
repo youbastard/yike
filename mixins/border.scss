@@ -1,0 +1,13 @@
+@mixin border($size: 1) { border-width: #{$size}px; }
+
+@mixin border-x($size: 1) { border-right-width: #{$size}px; border-left-width: #{$size}px; }
+
+@mixin border-y($size: 1) { border-top-width: #{$size}px; border-bottom-width: #{$size}px; }
+
+@mixin border-t($size: 1) { border-top-width: #{$size}px; }
+
+@mixin border-b($size: 1) { border-bottom-width: #{$size}px; }
+
+@mixin border-l($size: 1) { border-left-width: #{$size}px; }
+
+@mixin border-r($size: 1) { border-right-width: #{$size}px; }

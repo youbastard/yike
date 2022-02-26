@@ -1,0 +1,15 @@
+/**
+ * width mixin
+ *
+ * @example
+ *  @include width(2); => margin: .5rem;
+ */
+@mixin w($size) { width: calc-size($size); }
+
+@mixin w-full { width: 100%; }
+
+@mixin w-screen { width: 100vw; }
+
+@mixin w-min { width: min-content; }
+
+@mixin w-max { width: max-content; }

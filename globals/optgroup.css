@@ -1,0 +1,12 @@
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+optgroup {
+  padding: 0;
+  margin: 0; /* 2 */
+  color: inherit;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: inherit;
+}

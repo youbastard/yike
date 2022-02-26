@@ -1,0 +1,17 @@
+/**
+ * rounded mixin
+ *
+ * @example
+ *  @include rounded(2); => border-radius: .5rem;
+ */
+@mixin rounded($size) { border-radius: calc-size($size); }
+
+@mixin rounded-t($size) { border-radius-top-left: calc-size($size); border-radius-top-right: calc-size($size); }
+@mixin rounded-b($size) { border-radius-bottom-left: calc-size($size); border-radius-bottom-right: calc-size($size); }
+@mixin rounded-l($size) { border-radius-top-left: calc-size($size); border-radius-bottom-left: calc-size($size); }
+@mixin rounded-r($size) { border-radius-top-right: calc-size($size); border-radius-bottom-right: calc-size($size); }
+
+@mixin rounded-tl($size) { border-radius-top-left: calc-size($size); }
+@mixin rounded-tr($size) { border-radius-top-right: calc-size($size); }
+@mixin rounded-bl($size) { border-radius-bottom-left: calc-size($size); }
+@mixin rounded-br($size) { border-radius-bottom-right: calc-size($size); }
